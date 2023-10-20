@@ -1,0 +1,238 @@
+.Main-container {
+  height: 98vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(43, 43, 43);
+}
+
+a {
+  color: rgb(106, 34, 173);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(131, 64, 194)
+}
+
+.Main-container span{
+  color: rgb(21, 120, 120);
+
+}
+
+.Landing-container {
+  display: flex;
+  height: 98vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(43, 43, 43);
+}
+
+h2 {
+  color: aqua;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input{
+  width: 400px;
+  margin: 5px 0;
+  background-color: rgb(132, 215, 215);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 10px;
+}
+
+.primary-btn {
+  font-size: 20px;
+  font: bold;
+  width: 300px;
+  margin-top: 5px;
+  padding: 10px;
+  color: aqua;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(43, 103, 103);
+} 
+
+#back {
+  color: aqua;
+  text-decoration-line: none;
+}
+
+#back:hover {
+  cursor: pointer;
+  color: rgb(72, 185, 185);
+}
+
+.primary-btn:hover {
+  cursor: pointer;
+  background-color: rgb(63, 118, 118);
+}
+
+
+.card {
+  margin: 0 5px 5px 5px;
+  padding: 20px 20px 10px 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgb(141, 207, 233);
+}
+
+.title {
+  color: rgb(22, 125, 228);
+  margin-bottom: 20px;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+  justify-content: space-between;
+  background: #052659;
+  border-radius: 5px;
+  width: 30%;
+}
+.card-info ul li {
+  color: #bebbbb;
+  font-size: 10px;
+}
+
+button {
+  min-width: 80px;
+  min-height: 28px;
+  color: aqua;
+  border: none;
+  background-color: dodgerblue;
+  border-radius: 5px;
+}
+
+span {
+  padding: 5px;
+  color: rgb(33, 149, 149);
+  margin-bottom: 20px;
+  font-size: large;
+  background-color: rgb(115, 190, 220);
+  border-radius: 5px;
+}
+
+.device {
+  padding: 0;
+  display: flex;
+  width: 95%;
+  height: 95%;
+  flex-direction: column;
+  align-items: center;
+  background: #021024;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  width: 95%;
+  height: 30%;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.btns {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}
+
+.btns button {
+  width: 45%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  margin:  0;
+  font-size: 50%;
+  background: #326ca7;
+  color: #fff;
+}
+
+.card-info ul {
+  display: flex;
+  margin: 5px 0;
+  padding: 5px;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.head {
+  display: flex;
+  padding: 20px 0;
+  width: 100%;
+  justify-content: center;
+  background: #052659;
+  border-radius: 10px 10px 0 0;
+}
+
+.details {
+  display: flex;
+  width: 94%;
+  flex-direction: column;
+  margin: 0 0 10px 0;
+  background: #052659;
+  border-radius: 5px;
+}
+
+.details article {
+  margin: 10px 0;
+  color: #fff;
+  align-self: center;
+}
+
+.sales, .revenue {
+  display: flex;
+  margin: 5px 0;
+  justify-content: space-around;
+}
+
+.sales div, .revenue div {
+  color:#2b82d9;
+}
+
+.ttt {
+  text-align: center;
+  font-size: 80%;
+  text-decoration:  underline;
+  margin: 10px auto;
+}
+
+.info {
+  width: 94%;
+  margin: 5px 0 15px 0;
+  background: #052659;
+  border-radius: 5px;
+}
+
+.thead {
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tbody {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0 0 5px 5px;
+  background-color: #194e83;
+}
